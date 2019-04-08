@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="HTML & CSS Review for Python">
+    <meta name="author" content="Craig Lou">
+    <meta name="keywords" content="HTML,CSS,Python,Prework,Coding,Temple">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-
+    scallable=yes">
+    <title>Review - Home</title>
+  </head>
+  <body>
+    <!-- this is an HTML comment -->
+    <header>
+      <h1>Header</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/projects.html">Projects</a></li>
+          <li><a href="#Below">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- start of main section, where we will display our hobbies, a list of
+      products, and an image -->
+    <main>
+      <h1>Main</h1>
+
+      <div id="personal">
+        <h3>Craig Lou</h3>
+        <button onClick="alert('Hello')">Click Me!</button>
+        <br/>
+        <br/>
+        <img src="http://placehold.it/250x250" alt="Craig Lou">
+      </div> <!-- end personal section -->
+
+      <div id="hobbies">
+        <h3>Hobbies</h3>
+        <ol>
+          <li>Going to the gym</li>
+          <li>Reading</li>
+          <li>Producing music</li>
+        </ol>
+      </div> <!-- end hobbies section -->
+
+      <div id="products">
+        <h3>Products Table</h3>
+        <table> <!-- table>(thead>tr>th*4)+(tbody>tr>td*4)+(tfoot>tr>th*4) -->
+          <thead>
+            <tr>
+              <th>Quantity</th>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2</td>
+              <td>Programming Book</td>
+              <td>$44.00</td>
+              <td>$88.00</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colSpan="3">Total:</th>
+              <th>$88.00</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div> <!-- end products table section -->
+
+    </main>
+
+    <footer>
+      <h1>Footer</h1>
+      <p id="Below">This is the bottom of the page.</p>
+    </footer>
+  </body>
+</html>
