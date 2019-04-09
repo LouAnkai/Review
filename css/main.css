@@ -1,0 +1,59 @@
+h1 {
+  color:red;
+  font-size: 32px;
+  margin: 50px 25px 50px 25px; /* top right bottom left */
+  background-color: grey;
+  padding: 25px 50px;
+}
+
+#personal {
+  background-color: steelblue;
+}
+
+.bg-red {
+  background-color: red;
+  height: 100vh;
+  max-height: 400px;
+  width: 50%;
+  float: left;
+}
+
+h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: cursive;
+  text-align:center;
+}
+
+span {
+  display: inline-block;
+  width: 50%;
+  color:blue;
+}
+
+button {
+  display: block;
+  margin: 25px auto;
+}
+
+img {
+  border: 5px solid black; /* width, style, color */
+  display: block;
+  margin: 25px auto;
+}
+
+ol>li {
+  color: white;
+}
+/* > = direct descendant */
+
+th[colspan="3"] {
+  font-size: 20px;
+}
+
+#products {
+  width: 100%;
+  display: block;
+  float: none;
+  clear:both;
+}

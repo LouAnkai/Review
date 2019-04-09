@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-
     scallable=yes">
     <title>Review - Home</title>
+
+
+    <!-- add own CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+
   </head>
   <body>
     <!-- this is an HTML comment -->
@@ -27,15 +32,13 @@
     <main>
       <h1>Main</h1>
 
-      <div id="personal">
-        <h3>Craig Lou</h3>
+      <div id="personal" class="bg-red">
+        <h3>Craig <span>Lou</span></h3>
         <button onClick="alert('Hello')">Click Me!</button>
-        <br/>
-        <br/>
         <img src="http://placehold.it/250x250" alt="Craig Lou">
       </div> <!-- end personal section -->
 
-      <div id="hobbies">
+      <div id="hobbies" class="bg-red">
         <h3>Hobbies</h3>
         <ol>
           <li>Going to the gym</li>
@@ -44,12 +47,12 @@
         </ol>
       </div> <!-- end hobbies section -->
 
-      <div id="products">
+      <div id="products" class="bg-red">
         <h3>Products Table</h3>
         <table> <!-- table>(thead>tr>th*4)+(tbody>tr>td*4)+(tfoot>tr>th*4) -->
           <thead>
             <tr>
-              <th>Quantity</th>
+              <th><span>Quantity</span></th>
               <th>Product Name</th>
               <th>Price</th>
               <th>Total</th>
